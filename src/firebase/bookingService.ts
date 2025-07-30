@@ -12,23 +12,6 @@ import {
 import { db } from "./config";
 import type { Booking, Client } from "../types";
 
-// interface Client {
-//   id: string;
-//   name: string;
-//   phone: string;
-// }
-
-// interface Booking {
-//   id: string;
-//   clientId: string;
-//   clientName: string;
-//   callType: "onboarding" | "follow-up";
-//   date: string; // YYYY-MM-DD
-//   time: string; // HH:MM
-//   isRecurring: boolean;
-//   originalDate?: string; // For recurring calls, this is the first occurrence
-// }
-
 // Collections
 const BOOKINGS_COLLECTION = "bookings";
 const CLIENTS_COLLECTION = "clients";

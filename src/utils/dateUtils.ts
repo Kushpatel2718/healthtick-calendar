@@ -1,4 +1,3 @@
-// In your dateUtils.ts or wherever formatDate is defined
 export const formatDate = (date: Date) => {
   return [
     date.getFullYear(),
