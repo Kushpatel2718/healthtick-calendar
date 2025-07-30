@@ -10,7 +10,7 @@ const ReactCalendarStyle = ({
 }: ReactCalendarStyleProps) => {
   const [currentMonth, setCurrentMonth] = useState(() => {
     // Parse the selectedDate as local date (without time)
-    const [year, month, day] = selectedDate.split("-").map(Number);
+    const [year, month] = selectedDate.split("-").map(Number);
     return new Date(year, month - 1, 1); // month is 0-indexed in Date
   });
 
